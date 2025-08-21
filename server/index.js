@@ -9,8 +9,11 @@ const router = require('./router');
 const app = express();
 const server = http.createServer(app);
 const io = socketio(server);
+const path = require("path");
+
 
 app.use(cors());
+
 app.use(router);
 
 io.on('connect', (socket) => {
