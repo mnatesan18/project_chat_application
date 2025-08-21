@@ -5,6 +5,13 @@
   height: 100vh;
   background-color: #1A1A1D;
 }
+.typing {
+  font-style: italic;
+  color: gray;
+  margin: 5px 10px;
+  font-size: 14px;
+}
+
 
 .container {
   display: flex;
